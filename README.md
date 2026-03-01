@@ -23,8 +23,6 @@ Principais decisões:
 - Botão indicando futuras funcionalidades
 - Uso de componentes reutilizáveis
 
----
-
 Componentes criados:
 
 - **Header** – Exibe o nome e ícone do aplicativo  
