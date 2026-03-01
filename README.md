@@ -23,10 +23,35 @@ Principais decisões:
 - Botão indicando futuras funcionalidades
 - Uso de componentes reutilizáveis
 
+---
+
 Componentes criados:
 
 - **Header** – Exibe o nome e ícone do aplicativo  
+Arquivo: components/Header.tsx
+
+Responsável por exibir:
+- Ícone de reciclagem (MaterialIcons)
+- Nome do aplicativo "ReUse"
+
+Características técnicas:
+- flexDirection: "row" para alinhar ícone e texto
+- Uso de @expo/vector-icons
+- Componente isolado para facilitar reutilização futura
+
 - **BannerCard** – Exibe a imagem principal
+Arquivo: components/BannerCard.tsx
+
+Responsável por exibir:
+- Imagem ilustrativa representando sustentabilidade
+
+Características técnicas:
+- Uso de Image
+- borderRadius: 16
+- overflow: "hidden" para manter bordas arredondadas
+- Largura 100% responsiva
+
+Este componente poderá futuramente receber props para tornar-se dinâmico.
 
 ---
 
@@ -40,3 +65,25 @@ reuse-app/
 ├── assets/images/banner-reuse.png
 ├── app.json
 └── package.json
+
+---
+
+## Estrutura da Tela Principal
+
+Arquivo: app/(tabs)/index.tsx
+
+A tela principal utiliza:
+- SafeAreaView
+- View
+- Text
+- StyleSheet
+- Componentes personalizados (Header e BannerCard)
+
+Elementos apresentados:
+- Header (nome + ícone)
+- Banner ilustrativo
+- Proposta de valor
+- Explicação do problema
+- Botão estático "Em breve..."
+
+A ausência de navegação foi uma decisão alinhada ao escopo da Sprint.
