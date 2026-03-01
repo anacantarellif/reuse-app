@@ -26,30 +26,30 @@ Principais decisões:
 Componentes criados:
 
 - **Header** – Exibe o nome e ícone do aplicativo  
-Arquivo: components/Header.tsx
-
-Responsável por exibir:
-- Ícone de reciclagem (MaterialIcons)
-- Nome do aplicativo "ReUse"
-
-Características técnicas:
-- flexDirection: "row" para alinhar ícone e texto
-- Uso de @expo/vector-icons
-- Componente isolado para facilitar reutilização futura
+  Arquivo: components/Header.tsx
+  
+  Responsável por exibir:
+  - Ícone de reciclagem (MaterialIcons)
+  - Nome do aplicativo "ReUse"
+  
+  Características técnicas:
+  - flexDirection: "row" para alinhar ícone e texto
+  - Uso de @expo/vector-icons
+  - Componente isolado para facilitar reutilização futura
 
 - **BannerCard** – Exibe a imagem principal
-Arquivo: components/BannerCard.tsx
-
-Responsável por exibir:
-- Imagem ilustrativa representando sustentabilidade
-
-Características técnicas:
-- Uso de Image
-- borderRadius: 16
-- overflow: "hidden" para manter bordas arredondadas
-- Largura 100% responsiva
-
-Este componente poderá futuramente receber props para tornar-se dinâmico.
+  Arquivo: components/BannerCard.tsx
+  
+  Responsável por exibir:
+  - Imagem ilustrativa representando sustentabilidade
+  
+  Características técnicas:
+  - Uso de Image
+  - borderRadius: 16
+  - overflow: "hidden" para manter bordas arredondadas
+  - Largura 100% responsiva
+  
+  Este componente poderá futuramente receber props para tornar-se dinâmico.
 
 ---
 
